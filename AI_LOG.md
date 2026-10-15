@@ -34,8 +34,13 @@ Every time you update your project, please make a note of what you did in the `A
 
 
 ## HRMS Admin Dashboard & System Architecture — [2026-10-15]
+
 **Tool(s) used:** Gemini
+
 **What I asked for:** Assistance in building the FastAPI Admin Panel (employee registration, attendance-based salary multiplication, and leave request management), integrating Jinja2 templates, updating MongoDB functions, and structuring architecture files (`architecture.md`, `architecture.png`).
+
 **What I kept as-is:** The foundational FastAPI route handlers, PyMongo database integration logic, and the structural layout of the Jinja2 `admin.html` dashboard.
+
 **What I changed or rejected, and why:** Adapted form parameter names and password fallback criteria to align seamlessly with existing database authentication handlers (`verify_login`) and group repository guidelines.
+
 **Something the AI got wrong that I had to catch:** Initially included shell-specific syntax for MongoDB Compass document entries that needed to be formatted into standard JSON for proper insertion.
